@@ -7,7 +7,7 @@ API to retrieve and match real‐time hotel data based on those preferences.
 
 ## 🎥 Demo
 
-[![▶️ Watch Demo](Thumbnail(1).jpg)](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view?usp=sharing)
+[![▶️ Watch Demo](Thumbnail (1).jpg)](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view?usp=sharing)
 
 ---
 
