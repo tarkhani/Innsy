@@ -1,6 +1,10 @@
-# Innsy (HotelLLm)
+# Innsy 
+Innsy is an iOS application that allows users to describe their ideal hotel experience or upload an image of
+a desired view, and the app returns personalized hotel recommendations. The system shifts hotel search
+from traditional filter‐based selection to intent‐driven discovery. I used the Gemma‐3‐12B‐it multimodal
+model to interpret user intent and extract preferences from text and images, and integrated the Hotelbeds
+API to retrieve and match real‐time hotel data based on those preferences.
 
-SwiftUI iOS app for describing a stay in natural language, extracting structured booking intent with a Gemma model on **Hugging Face Inference Endpoints**, and searching or booking via the **Hotelbeds (HBX)** APIs. **Google Sign-In** is optional for account sign-in.
 
 ---
 
@@ -11,7 +15,7 @@ SwiftUI iOS app for describing a stay in natural language, extracting structured
 
 ---
 
-## Swift packages (libraries)
+## Swift packages 
 
 Dependencies are managed with **Swift Package Manager** inside Xcode. The app target links **GoogleSignIn** from [GoogleSignIn-iOS](https://github.com/google/GoogleSignIn-iOS) (resolved version in `Innsy.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved`).
 
@@ -60,16 +64,16 @@ The repository includes an example handler for a custom endpoint: `HotelLLm/infe
 
 Without valid keys, hotel search and booking flows that call Hotelbeds will fail at runtime.
 
-### 3. Configure Hugging Face (Gemma / intent parsing)
+### 3. Configure Hugging Face (Gemma)
 
 1. Create a **Hugging Face** account and an access **token** with rights to invoke your endpoint.
-2. Create or use an **Inference Endpoint** (or compatible server) running a **Gemma** model suited to your handler (see `inference-endpoint/gemma3_multimodal_handler.example.py` and comments in `HuggingFaceGemmaIntentService.swift`).
+2. Create or use an **Inference Endpoint** (or compatible server) running a **Gemma** model.
 3. Edit **`Innsy/Secrets.swift`**:
    - `huggingFaceGemmaEndpoint` — base URL of the endpoint (no trailing path required; the app tries several API shapes).
    - `huggingFaceAccessToken` — `hf_…` token, **or** leave placeholder and paste the token in-app if your build stores it in UserDefaults (`UserOverrideKeys`).
    - `huggingFaceChatModelId` — if empty, the app tries several defaults; for **vLLM**-style endpoints, set this to the **exact** served model id.
 
-### 4. Add `GoogleService-Info.plist` (not in git)
+### 4. Add `GoogleService-Info.plist` 
 
 This file is **not** committed. You must add it locally:
 
@@ -96,11 +100,6 @@ If this does not match, the redirect after Google login will not return to the a
 
 Fix compile errors in `Secrets.swift` if placeholders are still present and you need a successful build for other work—replace every `YOUR_…` value with real credentials or temporarily use test values you control.
 
----
-
-## Optional: Hugging Face token only in the app
-
-Users can store a Hugging Face token at runtime instead of (or overriding) `Secrets.huggingFaceAccessToken`. See **`UserOverrideKeys`** / **`ResolvedLLMKeys`** in the source for how UserDefaults overrides the compile-time secret.
 
 ---
 
@@ -108,13 +107,8 @@ Users can store a Hugging Face token at runtime instead of (or overriding) `Secr
 
 | Path | Contents |
 |------|-----------|
-| `HotelLLm/Innsy/` | SwiftUI app sources, `Secrets.swift`, assets. |
-| `HotelLLm/inference-endpoint/` | Example Python endpoint handler for Gemma 3 multimodal. |
-| `HotelLLm/AppInfo.plist` | URL schemes and usage descriptions merged into the app. |
+| `Innsy/` | SwiftUI app sources, `Secrets.swift`, assets. 
+| `AppInfo.plist` | URL schemes and usage descriptions merged into the app. |
 
 ---
 
-## Security notes
-
-- Never commit real **`GoogleService-Info.plist`**, Hotelbeds secrets, or Hugging Face tokens.
-- Restrict **Hotelbeds** keys and **Firebase** API keys in each vendor’s console (IP, bundle ID, etc.) per their documentation.
