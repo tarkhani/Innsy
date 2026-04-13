@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# SwiftPM (CLI; keep shared Package.resolved under the project)
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Firebase / Google Sign-In (add locally; never commit)
+**/GoogleService-Info.plist
