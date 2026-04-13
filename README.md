@@ -5,7 +5,7 @@ from traditional filter‐based selection to intent‐driven discovery. I used t
 model to interpret user intent and extract preferences from text and images, and integrated the Hotelbeds
 API to retrieve and match real‐time hotel data based on those preferences.
 
-[▶️ Watch Demo](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view)
+[▶️ Watch Demo](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view?usp=sharing)
 
 ---
 
