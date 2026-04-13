@@ -1,0 +1,402 @@
+[
+  {
+    "code": 11,
+    "name": "Breakfast and dinner"
+  },
+  {
+    "code": 12,
+    "name": "Breakfast and lunch"
+  },
+  {
+    "code": 25,
+    "name": "aparthotel"
+  },
+  {
+    "code": 30,
+    "name": "Breakfast buffet"
+  },
+  {
+    "code": 35,
+    "name": "Continental breakfast"
+  },
+  {
+    "code": 40,
+    "name": "Breakfast"
+  },
+  {
+    "code": 55,
+    "name": "TV"
+  },
+  {
+    "code": 56,
+    "name": "Connecting rooms"
+  },
+  {
+    "code": 80,
+    "name": "Buffet dinner"
+  },
+  {
+    "code": 95,
+    "name": "Junior suites"
+  },
+  {
+    "code": 115,
+    "name": "Kitchen"
+  },
+  {
+    "code": 123,
+    "name": "Villas"
+  },
+  {
+    "code": 124,
+    "name": "Disability-friendly rooms"
+  },
+  {
+    "code": 125,
+    "name": "Garden"
+  },
+  {
+    "code": 126,
+    "name": "Triple rooms"
+  },
+  {
+    "code": 127,
+    "name": "Quadruple rooms"
+  },
+  {
+    "code": 128,
+    "name": "Executive rooms"
+  },
+  {
+    "code": 129,
+    "name": "Superior rooms"
+  },
+  {
+    "code": 131,
+    "name": "Family rooms"
+  },
+  {
+    "code": 132,
+    "name": "Twin rooms"
+  },
+  {
+    "code": 135,
+    "name": "Terrace"
+  },
+  {
+    "code": 137,
+    "name": "Cooker"
+  },
+  {
+    "code": 140,
+    "name": "Pub"
+  },
+  {
+    "code": 143,
+    "name": "Tea and coffee making facilities"
+  },
+  {
+    "code": 145,
+    "name": "Washing machine"
+  },
+  {
+    "code": 147,
+    "name": "Ironing set"
+  },
+  {
+    "code": 155,
+    "name": "King-size bed 150-183 width"
+  },
+  {
+    "code": 195,
+    "name": "Individually adjustable heating"
+  },
+  {
+    "code": 203,
+    "name": "Only Adults"
+  },
+  {
+    "code": 225,
+    "name": "Smoking area"
+  },
+  {
+    "code": 231,
+    "name": "French Balcony"
+  },
+  {
+    "code": 261,
+    "name": "Full board"
+  },
+  {
+    "code": 262,
+    "name": "Half Board"
+  },
+  {
+    "code": 263,
+    "name": "All inclusive"
+  },
+  {
+    "code": 264,
+    "name": "Breakfast a la carte"
+  },
+  {
+    "code": 266,
+    "name": "Vegan meal"
+  },
+  {
+    "code": 267,
+    "name": "Halal meal"
+  },
+  {
+    "code": 268,
+    "name": "Kosher meal"
+  },
+  {
+    "code": 269,
+    "name": "Hydro-massage bath"
+  },
+  {
+    "code": 275,
+    "name": "Extra beds on demand"
+  },
+  {
+    "code": 279,
+    "name": "Desk"
+  },
+  {
+    "code": 284,
+    "name": "Sofa bed"
+  },
+  {
+    "code": 286,
+    "name": "Fan"
+  },
+  {
+    "code": 287,
+    "name": "Smoking rooms"
+  },
+  {
+    "code": 288,
+    "name": "Satellite TV"
+  },
+  {
+    "code": 289,
+    "name": "Cable TV"
+  },
+  {
+    "code": 294,
+    "name": "Queen-size bed 150-154 width"
+  },
+  {
+    "code": 295,
+    "name": "Fitness"
+  },
+  {
+    "code": 303,
+    "name": "Soundproof room"
+  },
+  {
+    "code": 305,
+    "name": "Hot tub"
+  },
+  {
+    "code": 306,
+    "name": "Outdoor swimming pool"
+  },
+  {
+    "code": 307,
+    "name": "Sauna"
+  },
+  {
+    "code": 308,
+    "name": "Fitness room"
+  },
+  {
+    "code": 313,
+    "name": "Indoor swimming pool"
+  },
+  {
+    "code": 317,
+    "name": "Children playground"
+  },
+  {
+    "code": 321,
+    "name": "Electric vehicle charging station"
+  },
+  {
+    "code": 322,
+    "name": "BBQ Facilities"
+  },
+  {
+    "code": 323,
+    "name": "Ski to Door Acces"
+  },
+  {
+    "code": 326,
+    "name": "Private Pool"
+  },
+  {
+    "code": 328,
+    "name": "Private Beach Area"
+  },
+  {
+    "code": 331,
+    "name": "Bikes Available"
+  },
+  {
+    "code": 362,
+    "name": "Indoor heated pool"
+  },
+  {
+    "code": 365,
+    "name": "Outdoor heated pool"
+  },
+  {
+    "code": 385,
+    "name": "Children’s swimming area"
+  },
+  {
+    "code": 390,
+    "name": "Golf"
+  },
+  {
+    "code": 401,
+    "name": "Entertainment programme for adults"
+  },
+  {
+    "code": 405,
+    "name": "Entertainment programme for children"
+  },
+  {
+    "code": 410,
+    "name": "Surfing"
+  },
+  {
+    "code": 430,
+    "name": "Tennis"
+  },
+  {
+    "code": 475,
+    "name": "Day-care centre"
+  },
+  {
+    "code": 480,
+    "name": "Snowboarding"
+  },
+  {
+    "code": 485,
+    "name": "Babysitting service"
+  },
+  {
+    "code": 490,
+    "name": "Skiing"
+  },
+  {
+    "code": 495,
+    "name": "Transfer service"
+  },
+  {
+    "code": 510,
+    "name": "Ski pass"
+  },
+  {
+    "code": 535,
+    "name": "Small pets allowed (under 5 kg)"
+  },
+  {
+    "code": 536,
+    "name": "Small pets allowed (under 5 kg) not available in all rooms"
+  },
+  {
+    "code": 541,
+    "name": "Large pets allowed (over 5 kg) not available in all rooms"
+  },
+  {
+    "code": 550,
+    "name": "Wi-fi"
+  },
+  {
+    "code": 552,
+    "name": "Early Check-in"
+  },
+  {
+    "code": 555,
+    "name": "Poolside snack bar"
+  },
+  {
+    "code": 559,
+    "name": "Luggage room"
+  },
+  {
+    "code": 562,
+    "name": "Non-smoking establishment"
+  },
+  {
+    "code": 567,
+    "name": "Dining area"
+  },
+  {
+    "code": 570,
+    "name": "Self check-in"
+  },
+  {
+    "code": 572,
+    "name": "Ski storage"
+  },
+  {
+    "code": 573,
+    "name": "Private pool"
+  },
+  {
+    "code": 574,
+    "name": "Private beach area"
+  },
+  {
+    "code": 575,
+    "name": "Online check-in"
+  },
+  {
+    "code": 576,
+    "name": "Online Check-out"
+  },
+  {
+    "code": 579,
+    "name": "Universal accessibility"
+  },
+  {
+    "code": 585,
+    "name": "24h dining café"
+  },
+  {
+    "code": 605,
+    "name": "Business centre"
+  },
+  {
+    "code": 610,
+    "name": "WaterSlides"
+  },
+  {
+    "code": 615,
+    "name": "Beauty salon"
+  },
+  {
+    "code": 620,
+    "name": "Spa centre"
+  },
+  {
+    "code": 630,
+    "name": "Turkish bath (hamam)"
+  },
+  {
+    "code": 992,
+    "name": "Rollaways on demand"
+  },
+  {
+    "code": 993,
+    "name": "Bunk beds"
+  },
+  {
+    "code": 994,
+    "name": "Futon"
+  }
+]
