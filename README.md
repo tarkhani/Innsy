@@ -6,9 +6,7 @@ model to interpret user intent and extract preferences from text and images, and
 API to retrieve and match real‐time hotel data based on those preferences.
 
 [▶️ Watch Demo](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view)
-## 🎥 Demo
 
-[![Watch Demo](demo.png)](https://drive.google.com/file/d/1u5Ga8AT7HkFWR-4Sl9adZup2LWlbrX6E/view)
 ---
 
 ## Requirements
